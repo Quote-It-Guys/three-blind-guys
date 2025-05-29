@@ -7,23 +7,96 @@
   <style>
     body {
       font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+    }
+    header, section {
+      padding: 4rem 2rem;
       text-align: center;
-      padding: 2rem;
-      background: #fafafa;
+    }
+    header {
+      background: #000;
+      color: #fff;
     }
     h1 {
       font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-top: 2rem;
     }
     p {
-      max-width: 600px;
+      max-width: 700px;
       margin: auto;
+      font-size: 1.1rem;
       line-height: 1.6;
+    }
+    nav {
+      background: #111;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background: #222;
+      color: white;
+      padding: 2rem;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
-  <h1>Three Blind Guys</h1>
-  <p>Welcome to our official site! We do things a little differently — with vision, heart, and humor. Stay tuned for updates!</p>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Three Blind Guys</h1>
+    <p>An emerging company driven to motivate and inspire.</p>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+    We are an emerging company looking to help motivate individuals through technology, creativity, and community. Our mission is to uplift people using motivational strategies, continuous learning, and healthy competition — all while building purposeful digital tools that spark personal growth and self-improvement.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>What We're Working On</h2>
+    <p>
+      One of our first apps is <strong>Quoteful</strong> — a beautifully designed app to deliver daily doses of inspiration, wisdom, and reflection. It's just the beginning of our journey to build tools that motivate and empower.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>
+      Want to collaborate or learn more? Reach out at <strong>threeblindguys@email.com</strong> (or whatever your contact is).
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Three Blind Guys. All rights reserved.
+  </footer>
+
 </body>
 </html>
 
